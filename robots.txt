@@ -1,0 +1,13 @@
+# robots.txt for www.simpleloansindia.in
+
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow all other pages
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.simpleloansindia.in/sitemap.xml

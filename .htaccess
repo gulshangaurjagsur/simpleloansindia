@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Redirect non-www to www
+RewriteCond %{HTTP_HOST} ^simpleloansindia\.in [NC]
+RewriteRule ^(.*)$ https://www.simpleloansindia.in/$1 [L,R=301]
