@@ -10280,3 +10280,6 @@ textarea {
 .logo img{
   width: 200px;
 }
+.service p.mb-4{
+  min-height: 100px;
+}
